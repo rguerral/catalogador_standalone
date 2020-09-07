@@ -1,0 +1,1 @@
+# catalogador_standalone
