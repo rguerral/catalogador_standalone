@@ -1,7 +1,6 @@
 certifi==2020.6.20
 click==7.1.2
 joblib==0.16.0
-mkl-service==2.3.0
 nltk==3.5
 numpy==1.19.1
 pandas==1.1.1
