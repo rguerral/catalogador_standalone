@@ -1,0 +1,42 @@
+{
+	"tamaño_datos": {
+		"base_unit": "gigabyte",
+		"possible_units": {
+			"gigabyte": {
+				"to_base": 1,
+				"syn": [
+					"gb", "giga"
+				]
+			},
+			"terabyte": {
+				"to_base": 1000,
+				"syn": [
+					"tera", "tb"
+				]
+			}
+		}
+	},
+	"longitud": {
+		"base_unit": "pulgada",
+		"possible_units": {
+			"pulgada": {
+				"to_base": 1,
+				"syn": [
+					"pulg", "'", "''", "`", "``", "\""
+				]
+			}
+		}
+	},
+	"unidad": {
+		"base_unit": "unidad1",
+		"possible_units": {
+			"unidad1": {
+				"to_base": 1,
+				"syn": [
+					"unidad", "un", "unid",
+					"unidade" 
+				]
+			}
+		}
+	}
+}

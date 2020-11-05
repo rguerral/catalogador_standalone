@@ -1,0 +1,421 @@
+{
+        "DESKTOP": {
+                "MARCA": {
+                        "possible_values": {
+                                "dell": ["dell"],
+                                "sumatec": ["sumatec"],
+                                "c-ram": ["c-ram"],
+                                "lenovo": ["lenovo"],
+                                "cibertec": ["cibertec"],
+                                "minibox": ["minibox"],
+                                "hp": ["hp"],
+                                "apple": ["apple", "mac", "macbook"],
+                                "clio": ["clio"],
+                                "artec": ["artec"],
+                                "msi": ["msi"],
+                                "lanix": ["lanix"],
+                                "premium": ["premium"],
+                                "cibergroup": ["cibergroup"],
+                                "bip/msi": ["bip/msi"],
+                                "asus": ["asus"],
+                                "acer": ["acer"],
+                                "best-pc": ["best-pc"],
+                                "bip": ["bip"],
+                                "gear": ["gear"],
+                                "sp digital": ["sp digital"],
+                                "teknox": ["teknox"],
+                                "jmo": ["jmo"],
+                                "beacon": ["beacon"],
+                                "xvision": ["xvision"],
+                                "worfcom": ["worfcom"],
+                                "technocam": ["technocam"],
+                                "sunshine": ["sunshine"],
+                                "cintegral": ["cintegral"],
+                                "elo": ["elo"],
+                                "marcotec": ["marcotec"],
+                                "axiobase": ["axiobase"],
+                                "aminorte": ["aminorte"],
+                                "advantage": ["advantage"],
+                                "activa": ["activa"],
+                                "3nstar": ["3nstar"],
+                                "crecic": ["crecic"],
+                                "threeviu": ["threeviu"],
+                                "samsung": ["samsung"],
+                                "enlacessc": ["enlacessc"],
+                                "prodata": ["prodata"],
+                                "huawei": ["huawei"],
+                                "mundotec": ["mundotec"],
+                                "genercom": ["genercom"],
+                                "toshiba": ["toshiba"],
+                                "asus": ["asus"],
+                                "itab": ["itab"],
+                                "panasonic": ["panasonic"],
+                                "fujitsu": ["fujitsu"],
+                                "getac": ["getac"],
+                                "lechner": ["scg"],
+                                "venturi": ["venturi"],
+                                "atem": ["atem"]
+                        },
+                        "type": "nominal"
+                },
+                "PROCESADOR": {
+                        "possible_values": {
+                                "intel core i3": ["intel core i3", "i3"],
+                                "intel core i5": ["intel core i5", "i5"],
+                                "intel core i7": ["intel core i7", "i7", "i7w", "ci7"],
+                                "intel core i9": ["intel core i9", "i9"],
+                                "intel xeon": ["intel xeon", "xeon"],
+                                "intel pentium": ["intel pentium", "pentium"],
+                                "intel atom x": ["intel atom x", "atom x", "atom x5"],
+                                "intel celeron": ["intel celeron", "celeron"],
+                                "amd a2": ["amd a2", "a2"],
+                                "amd a3": ["amd a3", "a3"],
+                                "amd a4": ["amd a4", "a4"],
+                                "amd a5": ["amd a5", "a5"],
+                                "amd a6": ["amd a6", "a6"],
+                                "amd a7": ["amd a7", "a7"],
+                                "amd a8": ["amd a8", "a8"],
+                                "amd a9": ["amd a9", "a9"],
+                                "amd a10": ["amd a10", "a10"],
+                                "amd a12": ["amd a12", "a12"],
+                                "amd e2": ["amd e2", "e2"],
+                                "amd ryzen 3": ["amd ryzen 3", "ryzen\s?3"],
+                                "amd ryzen 5": ["amd ryzen 5", "ryzen\s?5"],
+                                "amd ryzen 7": ["amd ryzen 7", "ryzen\s?7"],
+                                "amd ontario": ["ontario"],
+                                "amd serie g": ["amd serie g", "serie\s?g", "amd t(-|\s)?48"]
+                        },
+                        "type": "nominal"
+                },
+                "SISTEMA OPERATIVO": {
+                        "possible_values": {
+                                "osx": ["osx", "apple", "mac", "mac\s?os", "mac\s?os\?x"],
+                                "windows 10 pro": ["windows\s?10\?pro", "w10\s?pro", "win\s?10\s?pro", "w10p", "windows\s?10\s?professional"],
+                                "windows 10 home": ["windows\s?10\s?home", "w\s?10\s?h", "win\s?10\s?h"],
+                                "windows 8": ["windows\s?8", "w8", "win\s?8", "w\s?8.1", "win\s?8.1", "windows\s?8.1", "w8\s?pro", "win8\s?pro", "win\s?8.1\s?pro"],
+                                "windows 7": ["intel xeon", "xeon"],
+                                "freedos": ["free\s?dos", "free\s?os", "free-dos", "free-os"],
+                                "ubuntu": ["ubuntu", "linux"]
+                        },
+                        "type": "nominal"
+                },
+                "SSD/HDD": {
+                        "possible_values": {
+                                "ssd": ["ssd", "sdd", "solid\s?stage", "solido"],
+                                "hdd": ["hdd"]
+                        },
+                        "type": "nominal"
+                },
+                "DISCO DURO (GB)": {
+                        "possible_values": {
+                                "128": ["128\s?gb?", "128\s?ssd", "120\s?gb?", "120\s?ssd"],
+                                "256": ["256\s?gb?", "256\s?ssd", "250\s?gb?", "250\s?ssd", "240\s?gb?", "240\s?ssd"],
+                                "512": ["512\s?gb?", "512\s?ssd", "500\s?gb?", "500\s?ssd"],
+                                "800": ["800\s?gb?", "800\s?ssd"],
+                                "1000": ["1\s?tb", "1000\s?gb?"],
+                                "2000": ["2\s?tb", "2000\s?gb?"],
+                                "3000": ["3\s?tb", "3000\s?gb?"],
+                                "4000": ["4\s?tb", "4000\s?gb?"]
+                        },
+                        "type": "nominal"
+                },
+                "MEMORIA RAM (GB)": {
+                        "possible_values": {
+                                "2": ["2\s?gb?"],
+                                "4": ["4\s?gb?"],
+                                "6": ["6\s?gb?"],
+                                "7": ["7\s?gb?"],
+                                "8": ["8\s?gb?"],
+                                "16": ["16\s?gb?"],
+                                "32": ["32\s?gb?"],
+                                "64": ["64\s?gb?"]
+                        },
+                        "type": "nominal"
+                },
+                "PANTALLA": {
+                        "dim": "longitud",
+                        "type": "ratio"
+                },
+        },
+
+        "LAPTOP": {
+                "MARCA": {
+                        "possible_values": {
+                                "dell": ["dell"],
+                                "sumatec": ["sumatec"],
+                                "c-ram": ["c-ram"],
+                                "lenovo": ["lenovo"],
+                                "cibertec": ["cibertec"],
+                                "minibox": ["minibox"],
+                                "hp": ["hp"],
+                                "apple": ["apple", "mac", "macbook"],
+                                "clio": ["clio"],
+                                "artec": ["artec"],
+                                "msi": ["msi"],
+                                "lanix": ["lanix"],
+                                "premium": ["premium"],
+                                "cibergroup": ["cibergroup"],
+                                "bip/msi": ["bip/msi"],
+                                "asus": ["asus"],
+                                "acer": ["acer"],
+                                "best-pc": ["best-pc"],
+                                "bip": ["bip"],
+                                "gear": ["gear"],
+                                "sp digital": ["sp digital"],
+                                "teknox": ["teknox"],
+                                "jmo": ["jmo"],
+                                "beacon": ["beacon"],
+                                "xvision": ["xvision"],
+                                "worfcom": ["worfcom"],
+                                "technocam": ["technocam"],
+                                "sunshine": ["sunshine"],
+                                "cintegral": ["cintegral"],
+                                "elo": ["elo"],
+                                "marcotec": ["marcotec"],
+                                "axiobase": ["axiobase"],
+                                "aminorte": ["aminorte"],
+                                "advantage": ["advantage"],
+                                "activa": ["activa"],
+                                "3nstar": ["3nstar"],
+                                "crecic": ["crecic"],
+                                "threeviu": ["threeviu"],
+                                "samsung": ["samsung"],
+                                "enlacessc": ["enlacessc"],
+                                "prodata": ["prodata"],
+                                "huawei": ["huawei"],
+                                "mundotec": ["mundotec"],
+                                "genercom": ["genercom"],
+                                "toshiba": ["toshiba"],
+                                "asus": ["asus"],
+                                "itab": ["itab"],
+                                "panasonic": ["panasonic"],
+                                "fujitsu": ["fujitsu"],
+                                "getac": ["getac"],
+                                "lechner": ["scg"],
+                                "venturi": ["venturi"],
+                                "atem": ["atem"]
+                        },
+                        "type": "nominal"
+                },
+                "PROCESADOR": {
+                        "possible_values": {
+                                "intel core i3": ["intel core i3", "i3"],
+                                "intel core i5": ["intel core i5", "i5"],
+                                "intel core i7": ["intel core i7", "i7", "i7w", "ci7"],
+                                "intel core i9": ["intel core i9", "i9"],
+                                "intel xeon": ["intel xeon", "xeon"],
+                                "intel pentium": ["intel pentium", "pentium"],
+                                "intel atom x": ["intel atom x", "atom x", "atom x5"],
+                                "intel celeron": ["intel celeron", "celeron"],
+                                "amd a2": ["amd a2", "a2"],
+                                "amd a3": ["amd a3", "a3"],
+                                "amd a4": ["amd a4", "a4"],
+                                "amd a5": ["amd a5", "a5"],
+                                "amd a6": ["amd a6", "a6"],
+                                "amd a7": ["amd a7", "a7"],
+                                "amd a8": ["amd a8", "a8"],
+                                "amd a9": ["amd a9", "a9"],
+                                "amd a10": ["amd a10", "a10"],
+                                "amd a12": ["amd a12", "a12"],
+                                "amd e2": ["amd e2", "e2"],
+                                "amd ryzen 3": ["amd ryzen 3", "ryzen\s?3"],
+                                "amd ryzen 5": ["amd ryzen 5", "ryzen\s?5"],
+                                "amd ryzen 7": ["amd ryzen 7", "ryzen\s?7"],
+                                "amd ontario": ["ontario"],
+                                "amd serie g": ["amd serie g", "serie\s?g", "amd t(-|\s)?48"]
+                        },
+                        "type": "nominal"
+                },
+                "SISTEMA OPERATIVO": {
+                        "possible_values": {
+                                "osx": ["osx", "apple", "mac", "mac\s?os", "mac\s?os\?x"],
+                                "windows 10 pro": ["windows\s?10\?pro", "w10\s?pro", "win\s?10\s?pro", "w10p", "windows\s?10\s?professional"],
+                                "windows 10 home": ["windows\s?10\s?home", "w\s?10\s?h", "win\s?10\s?h"],
+                                "windows 8": ["windows\s?8", "w8", "win\s?8", "w\s?8.1", "win\s?8.1", "windows\s?8.1", "w8\s?pro", "win8\s?pro", "win\s?8.1\s?pro"],
+                                "windows 7": ["intel xeon", "xeon"],
+                                "freedos": ["free\s?dos", "free\s?os", "free-dos", "free-os"],
+                                "ubuntu": ["ubuntu", "linux"]
+                        },
+                        "type": "nominal"
+                },
+                "SSD/HDD": {
+                        "possible_values": {
+                                "ssd": ["ssd", "sdd", "solid\s?stage", "solido"],
+                                "hdd": ["hdd"]
+                        },
+                        "type": "nominal"
+                },
+                "DISCO DURO (GB)": {
+                        "possible_values": {
+                                "128": ["128\s?gb?", "128\s?ssd", "120\s?gb?", "120\s?ssd"],
+                                "256": ["256\s?gb?", "256\s?ssd", "250\s?gb?", "250\s?ssd", "240\s?gb?", "240\s?ssd"],
+                                "512": ["512\s?gb?", "512\s?ssd", "500\s?gb?", "500\s?ssd"],
+                                "800": ["800\s?gb?", "800\s?ssd"],
+                                "1000": ["1\s?tb", "1000\s?gb?"],
+                                "2000": ["2\s?tb", "2000\s?gb?"],
+                                "3000": ["3\s?tb", "3000\s?gb?"],
+                                "4000": ["4\s?tb", "4000\s?gb?"]
+                        },
+                        "type": "nominal"
+                },
+                "MEMORIA RAM (GB)": {
+                        "possible_values": {
+                                "2": ["2\s?gb?"],
+                                "4": ["4\s?gb?"],
+                                "6": ["6\s?gb?"],
+                                "7": ["7\s?gb?"],
+                                "8": ["8\s?gb?"],
+                                "16": ["16\s?gb?"],
+                                "32": ["32\s?gb?"],
+                                "64": ["64\s?gb?"]
+                        },
+                        "type": "nominal"
+                },
+                "PANTALLA": {
+                        "dim": "longitud",
+                        "type": "ratio"
+                },
+                
+        },
+
+        "ALL IN ONE": {
+                "MARCA": {
+                        "possible_values": {
+                                "dell": ["dell"],
+                                "sumatec": ["sumatec"],
+                                "c-ram": ["c-ram"],
+                                "lenovo": ["lenovo"],
+                                "cibertec": ["cibertec"],
+                                "minibox": ["minibox"],
+                                "hp": ["hp"],
+                                "apple": ["apple", "mac", "macbook"],
+                                "clio": ["clio"],
+                                "artec": ["artec"],
+                                "msi": ["msi"],
+                                "lanix": ["lanix"],
+                                "premium": ["premium"],
+                                "cibergroup": ["cibergroup"],
+                                "bip/msi": ["bip/msi"],
+                                "asus": ["asus"],
+                                "acer": ["acer"],
+                                "best-pc": ["best-pc"],
+                                "bip": ["bip"],
+                                "gear": ["gear"],
+                                "sp digital": ["sp digital"],
+                                "teknox": ["teknox"],
+                                "jmo": ["jmo"],
+                                "beacon": ["beacon"],
+                                "xvision": ["xvision"],
+                                "worfcom": ["worfcom"],
+                                "technocam": ["technocam"],
+                                "sunshine": ["sunshine"],
+                                "cintegral": ["cintegral"],
+                                "elo": ["elo"],
+                                "marcotec": ["marcotec"],
+                                "axiobase": ["axiobase"],
+                                "aminorte": ["aminorte"],
+                                "advantage": ["advantage"],
+                                "activa": ["activa"],
+                                "3nstar": ["3nstar"],
+                                "crecic": ["crecic"],
+                                "threeviu": ["threeviu"],
+                                "samsung": ["samsung"],
+                                "enlacessc": ["enlacessc"],
+                                "prodata": ["prodata"],
+                                "huawei": ["huawei"],
+                                "mundotec": ["mundotec"],
+                                "genercom": ["genercom"],
+                                "toshiba": ["toshiba"],
+                                "asus": ["asus"],
+                                "itab": ["itab"],
+                                "panasonic": ["panasonic"],
+                                "fujitsu": ["fujitsu"],
+                                "getac": ["getac"],
+                                "lechner": ["scg"],
+                                "venturi": ["venturi"],
+                                "atem": ["atem"]
+                        },
+                        "type": "nominal"
+                },
+                "PROCESADOR": {
+                        "possible_values": {
+                                "intel core i3": ["intel core i3", "i3"],
+                                "intel core i5": ["intel core i5", "i5"],
+                                "intel core i7": ["intel core i7", "i7", "i7w", "ci7"],
+                                "intel core i9": ["intel core i9", "i9"],
+                                "intel xeon": ["intel xeon", "xeon"],
+                                "intel pentium": ["intel pentium", "pentium"],
+                                "intel atom x": ["intel atom x", "atom x", "atom x5"],
+                                "intel celeron": ["intel celeron", "celeron"],
+                                "amd a2": ["amd a2", "a2"],
+                                "amd a3": ["amd a3", "a3"],
+                                "amd a4": ["amd a4", "a4"],
+                                "amd a5": ["amd a5", "a5"],
+                                "amd a6": ["amd a6", "a6"],
+                                "amd a7": ["amd a7", "a7"],
+                                "amd a8": ["amd a8", "a8"],
+                                "amd a9": ["amd a9", "a9"],
+                                "amd a10": ["amd a10", "a10"],
+                                "amd a12": ["amd a12", "a12"],
+                                "amd e2": ["amd e2", "e2"],
+                                "amd ryzen 3": ["amd ryzen 3", "ryzen\s?3"],
+                                "amd ryzen 5": ["amd ryzen 5", "ryzen\s?5"],
+                                "amd ryzen 7": ["amd ryzen 7", "ryzen\s?7"],
+                                "amd ontario": ["ontario"],
+                                "amd serie g": ["amd serie g", "serie\s?g", "amd t(-|\s)?48"]
+                        },
+                        "type": "nominal"
+                },
+                "SISTEMA OPERATIVO": {
+                        "possible_values": {
+                                "osx": ["osx", "apple", "mac", "mac\s?os", "mac\s?os\?x"],
+                                "windows 10 pro": ["windows\s?10\?pro", "w10\s?pro", "win\s?10\s?pro", "w10p", "windows\s?10\s?professional"],
+                                "windows 10 home": ["windows\s?10\s?home", "w\s?10\s?h", "win\s?10\s?h"],
+                                "windows 8": ["windows\s?8", "w8", "win\s?8", "w\s?8.1", "win\s?8.1", "windows\s?8.1", "w8\s?pro", "win8\s?pro", "win\s?8.1\s?pro"],
+                                "windows 7": ["intel xeon", "xeon"],
+                                "freedos": ["free\s?dos", "free\s?os", "free-dos", "free-os"],
+                                "ubuntu": ["ubuntu", "linux"]
+                        },
+                        "type": "nominal"
+                },
+                "SSD/HDD": {
+                        "possible_values": {
+                                "ssd": ["ssd", "sdd", "solid\s?stage", "solido"],
+                                "hdd": ["hdd"]
+                        },
+                        "type": "nominal"
+                },
+                "DISCO DURO (GB)": {
+                        "possible_values": {
+                                "128": ["128\s?gb?", "128\s?ssd", "120\s?gb?", "120\s?ssd"],
+                                "256": ["256\s?gb?", "256\s?ssd", "250\s?gb?", "250\s?ssd", "240\s?gb?", "240\s?ssd"],
+                                "512": ["512\s?gb?", "512\s?ssd", "500\s?gb?", "500\s?ssd"],
+                                "800": ["800\s?gb?", "800\s?ssd"],
+                                "1000": ["1\s?tb", "1000\s?gb?"],
+                                "2000": ["2\s?tb", "2000\s?gb?"],
+                                "3000": ["3\s?tb", "3000\s?gb?"],
+                                "4000": ["4\s?tb", "4000\s?gb?"]
+                        },
+                        "type": "nominal"
+                },
+                "MEMORIA RAM (GB)": {
+                        "possible_values": {
+                                "2": ["2\s?gb?"],
+                                "4": ["4\s?gb?"],
+                                "6": ["6\s?gb?"],
+                                "7": ["7\s?gb?"],
+                                "8": ["8\s?gb?"],
+                                "16": ["16\s?gb?"],
+                                "32": ["32\s?gb?"],
+                                "64": ["64\s?gb?"]
+                        },
+                        "type": "nominal"
+                },
+                "PANTALLA": {
+                        "dim": "longitud",
+                        "type": "ratio"
+                },
+        }
+               
+              
+}

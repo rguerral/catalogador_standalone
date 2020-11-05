@@ -9,8 +9,8 @@ tfidf_ngram = 2
 tfidf_stopwords = stopwords.words('spanish')
 
 # Atributos
-escape_chars_begin = "(^|$|\s|\/|,|\.)"
-escape_chars_end = "(^|$|\s|\/|,|\.)"
+escape_chars_begin = "(^|$|\s|\/|,|\.|-)"
+escape_chars_end = "(^|$|\s|\/|,|\.|-)"
 escape_chars_between = "(\s)?"
 number_regex = "(([0-9]{0,10}(\.|\,)?[0-9]+\s?/\s?)?([0-9]{0,10}(\.|\,)?[0-9]+))"
 optional_plural_regex = "(s|es)?"

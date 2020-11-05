@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import traceback
 import re
+import ast
 import sys
 from tqdm import tqdm 
 from unidecode import unidecode
@@ -50,9 +51,12 @@ class Catalog:
 			raise FileNotFoundError("No se encuentra el archivo catalog_data.json en la carpeta input")
 		try:
 			with open(join(INPUT_PATH, "catalog_data.json")) as f:
-				catalog_data = json.load(f)
-		except Exception:
+				contents = f.read()
+				catalog_data = ast.literal_eval(contents)
+				f.close()
+		except Exception as e:
 			traceback.print_exc()
+			print(e)
 			raise ValueError("El archivo catalog_data.json tiene un formato incorrecto")
 
 		# units_data
@@ -60,7 +64,9 @@ class Catalog:
 			raise FileNotFoundError("No se encuentra el archivo units_data.json en la carpeta input")
 		try:
 			with open(join(INPUT_PATH, "units_data.json")) as f:
-				units_data = json.load(f)
+				contents = f.read()
+				units_data = ast.literal_eval(contents)
+				f.close()
 		except Exception:
 			traceback.print_exc()
 			raise ValueError("El archivo units_data.json tiene un formato incorrecto")
@@ -69,7 +75,7 @@ class Catalog:
 		if not exists(join(INPUT_PATH, "products.csv")):
 			raise FileNotFoundError("No se encuentra el archivo products.csv en la carpeta input")
 		try:
-			products_df = pd.read_csv(join(INPUT_PATH, "products.csv"))
+			products_df = pd.read_csv(join(INPUT_PATH, "products.csv"), encoding = "utf-8")
 		except Exception:
 			traceback.print_exc()
 			raise ValueError("El archivo products.csv tiene un formato incorrecto")
@@ -371,6 +377,7 @@ class Catalog:
 
 		if len(products_test) == 0:
 			print("* Saltando predecir categorias: todos los productos están categorizados")
+			return
 		else:
 			print("* Prediciendo categorias")
 
