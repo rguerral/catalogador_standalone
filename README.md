@@ -33,10 +33,11 @@ Para poder ejecutar el algoritmo es necesario crear un ambiente virtual con ```p
 2. Navegar hasta el directorio del repositorio. Para esto debes ejecutar el comando ```cd "<ruta>"```en donde <ruta> es la ruta hasta el directorio del repositorio, en mi caso es ```cd "/Users/admin/github/catalogador_standalone"```.
 3. Activar el ambiente virtual. Para esto ejecutar el comando ```conda activate catalogador_standalone```.
 4. Ejecutar el comando ```python src/run.py```.
+5. Ingresar el número del input_state a ejecutar.
 5. El algoritmo finaliza su ejecución cuando muestra el mensaje *- EJECUCIÓN COMPLETA -*. El output del algoritmo (productos catalogados) estará en formato .csv y .json en la carpeta ```catalogador_standalone/outputs```
 
-## 3. Datos requeridos (inputs/)
->  ***NOTA: Estos archivos deben ser definidos manualmente y añadidos a la carpeta ```/input```antes de ejecutar el código.***
+## 3. Datos requeridos (inputs_states/)
+>  ***NOTA: Estos archivos deben ser definidos manualmente. Agregué dos ejemplos: para la catalogación de alimentos y computadores. Si se quiere catalogar un nuevo listado de productos se debe crear una carpeta y definir siguientes archivos.***
 
 ### 3.1. catalog_data.json
 Contiene las posibles categorías y sus atributos. Una categoría puede contener uno o más atributos. Por ejemplo, se puede definir la categoría ```Aceite``` con atributos ```marca```, ```tamaño```. Esta categoría y sus atributos serán utilizados durante toda la sección.

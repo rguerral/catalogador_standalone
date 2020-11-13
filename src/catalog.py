@@ -27,9 +27,10 @@ from parameters import (escape_chars_begin,
 
 class Catalog:
 
-	def __init__(self, MAIN_PATH):
+	def __init__(self, MAIN_PATH, INPUT_PATH):
 
 		self.MAIN_PATH = MAIN_PATH
+		self.INPUT_PATH = INPUT_PATH
 
 		(self.catalog_data,
 		self.units_data,
@@ -44,7 +45,7 @@ class Catalog:
 		Carga los archivos input desde el MAIN_PATH/input
 		"""
 		print("* Cargando archivos input")
-		INPUT_PATH = join(self.MAIN_PATH, "input")
+		INPUT_PATH = self.INPUT_PATH
 
 		# catalog_data
 		if not exists(join(INPUT_PATH, "catalog_data.json")):
@@ -71,14 +72,28 @@ class Catalog:
 			traceback.print_exc()
 			raise ValueError("El archivo units_data.json tiene un formato incorrecto")
 
-		# products
-		if not exists(join(INPUT_PATH, "products.csv")):
-			raise FileNotFoundError("No se encuentra el archivo products.csv en la carpeta input")
-		try:
+		""" 
+		products.csv / products.xlsx
+		* busca el csv, si no lo encuentra busca el excel
+		* da formato a las columnas: "id"= float, "text" = str, "category"= str
+		"""
+		if exists(join(INPUT_PATH, "products.csv")):
 			products_df = pd.read_csv(join(INPUT_PATH, "products.csv"), encoding = "utf-8")
-		except Exception:
-			traceback.print_exc()
-			raise ValueError("El archivo products.csv tiene un formato incorrecto")
+		elif exists(join(INPUT_PATH, "products.xlsx")):
+			products_df = pd.read_excel(join(INPUT_PATH, "products.xlsx"))
+		else:
+			raise FileNotFoundError("products.csv/products.xlsx: no se encuentra el archivo  en la carpeta input")
+
+		try:
+			products_df["id"]
+			products_df["text"] = [None if x=="nan" else x for x in products_df["text"].astype(str)]
+			if products_df["text"].isna().sum() > 0:
+				raise ValueError
+			products_df["category"] = [None if x=="nan" else x for x in products_df["category"].astype(str)]
+		except:
+			msg = "products.csv/products.xlsx: formato incorrecto \nse debe cumplir que: columnas = {id:float, text:str, category:str}"
+			raise ValueError(msg)
+
 
 		return catalog_data, units_data, products_df
 
@@ -577,7 +592,7 @@ class Catalog:
 			json.dump(self.products_data, fp,  indent=8, sort_keys=True, ensure_ascii=False)
 
 
-
+"""
 if __name__ == "__main__":
 	a = Catalog(MAIN_PATH = "/Users/RodrigoGuerra/git/catalogador_standalone")
 	a.check_inputs_integrity()
@@ -587,4 +602,5 @@ if __name__ == "__main__":
 	a.predict_attributes()
 	a.export_csv()
 	a.export_json()
+"""
 
