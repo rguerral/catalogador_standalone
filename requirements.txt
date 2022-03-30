@@ -1,6 +1,6 @@
 joblib==0.16.0
 numpy==1.19.1
-pandas==1.1.1
+pandas==1.1.5
 pip==20.2.2
 python-dateutil==2.8.1
 pytz==2020.1
@@ -12,3 +12,6 @@ threadpoolctl==2.1.0
 tqdm==4.48.2
 Unidecode==1.1.1
 wheel==0.35.1
+xlrd==2.0.1
+et-xmlfile==1.1.0 
+openpyxl==3.0.9

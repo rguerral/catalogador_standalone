@@ -1,0 +1,3143 @@
+{
+        "Pila": {
+               "Marca": {
+                        "possible_values": {
+                                "datacom": [
+                                        "datacom"
+                                ],
+                                "dblue": [
+                                        "dblue"
+                                ],
+                                "duracell": [
+                                        "duracell"
+                                ],
+                                "energizer": [
+                                        "energizer"
+                                ],
+                                "eveready": [
+                                        "eveready"
+                                ],
+                                "macrotel": [
+                                        "macrotel"
+                                ],
+                                "maxcell": [
+                                        "maxcell"
+                                ],
+                                "redpower": [
+                                        "redpower"
+                                ],
+                                "sony": [
+                                        "sony"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "alcalina": [
+                                        "alcalina"
+                                ],
+                                "carbon": [
+                                        "carbon"
+                                ],
+                                "hibrida": [
+                                        "hibrida"
+                                ],
+                                "litio": [
+                                        "litio"
+                                ],
+                                "nickel": [
+                                        "nickel"
+                                ]
+                        },
+                        "type": "nominal"
+               },
+               "Tamaño": {
+                        "possible_values": {
+                                "a": [
+                                        "a"
+                                ],
+                                "a23": [
+                                        "a23"
+                                ],
+                                "a27": [
+                                        "a76"
+                                ],
+                                "aa": [
+                                        "aa"
+                                ],
+                                "aaa": [
+                                        "aaa"
+                                ],
+                                "c": [
+                                        "c"
+                                ],
+                                "cr123": [
+                                        "cr123"
+                                ],
+                                "cr2": [
+                                        "cr2"
+                                ],
+                                "cr2015": [
+                                        "cr2015"
+                                ],
+                                "cr2016": [
+                                        "cr2016"
+                                ],
+                                "cr2025": [
+                                        "cr2025"
+                                ],
+                                "cr2032": [
+                                        "cr2032"
+                                ],
+                                "cr2450": [
+                                        "cr2450"
+                                ],
+                                "d": [
+                                        "d"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Voltaje": {
+                        "dim": "voltaje",
+                        "type": "ratio"
+                },
+                "Recargable": {
+                        "possible_values": {
+                                "recargable": [
+                                        "recargable"
+                                ],
+                                "no recargable": [
+                                        "no recargable"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Regla": {
+                 "Marca": {
+                        "possible_values": {
+                                "adix": [
+                                        "adix"
+                                ],
+                                "art and craft": [
+                                        "art and craft"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "cordillera": [
+                                        "cordillera"
+                                ],
+                                "ctm": [
+                                        "ctm"
+                                ],
+                                "dello": [
+                                        "dello"
+                                ],
+                                "esquisse": [
+                                        "esquisse"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "fina imagen": [
+                                        "fina imagen"
+                                ],
+                                "fineoffice": [
+                                        "fineoffice"
+                                ],
+                                "foska": [
+                                        "foska"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "krearte": [
+                                        "krearte"
+                                ],
+                                "m+r": [
+                                        "m+r"
+                                ],
+                                "maped": [
+                                        "maped"
+                                ],
+                                "master wise": [
+                                        "master wise"
+                                ],
+                                "merletto": [
+                                        "merletto"
+                                ],
+                                "murano": [
+                                        "murano"
+                                ],
+                                "neolite": [
+                                        "neolite"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "roian": [
+                                        "roian"
+                                ],
+                                "seigard": [
+                                        "seigard"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "talenti": [
+                                        "talenti"
+                                ],
+                                "teknik": [
+                                        "teknik"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Material": {
+                        "possible_values": {
+                                "madera": [
+                                        "madera"
+                                ],
+                                "metal": [
+                                        "metal"
+                                ],
+                                "plastico": [
+                                        "plastico"
+                                ]                              
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Tamaño_CM": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "cerchas": [
+                                        "cerchas"
+                                ],
+                                "regla": [
+                                        "regla"
+                                ],
+                                "set geometria": [
+                                        "set geometria"
+                                ],
+                                "set pizarra": [
+                                        "set pizarra"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },      
+        "Adhesivo": {
+                  "Marca": {
+                        "possible_values": {
+                                "acrilex": [
+                                        "acrilex"
+                                ],
+                                "adix": [
+                                        "adix"
+                                ],
+                                "agorex": [
+                                        "agorex"
+                                ],
+                                "art and craft": [
+                                        "art and craft"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "azcorbebeitia": [
+                                        "azcorbebeitia"
+                                ],
+                                "bic": [
+                                        "bic"
+                                ],
+                                "carioca": [
+                                        "carioca"
+                                ],
+                                "creall": [
+                                        "creall"
+                                ],
+                                "creative": [
+                                        "creative"
+                                ],
+                                "dom": [
+                                        "dom"
+                                ],
+                                "faber castell": [
+                                        "faber castell"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "giotto": [
+                                        "giotto"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "henkel": [
+                                        "henkel"
+                                ],
+                                "instant": [
+                                        "instant"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "krearte": [
+                                        "krearte"
+                                ],
+                                "monami": [
+                                        "monami"
+                                ],
+                                "pelikan": [
+                                        "pelikan"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "poxipol": [
+                                        "poxipol"
+                                ],
+                                "pritt": [
+                                        "pritt"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "sargent art": [
+                                        "sargent art"
+                                ],
+                                "stic fix": [
+                                        "stic fix"
+                                ],
+                                "talinay": [
+                                        "talinay"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ],
+                                "toy color": [
+                                        "toy color"
+                                ],
+                                "uhu": [
+                                        "uhu"
+                                ],
+                                "uti guti": [
+                                        "uti guti"
+                                ]
+                        },
+                        "type": "nominal"        
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Gramos": {
+                        "dim": "masa",
+                        "type": "ratio"
+                },
+                "Tubos": {
+                        "dim": "tubo",
+                        "type": "ratio"
+                },
+                "Volumen": {
+                        "dim": "volumen",
+                        "type": "ratio"
+                },
+                "Largo": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Ancho": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "barra": [
+                                        "barra"
+                                ],
+                                "glitter": [
+                                        "glitter"
+                                ],
+                                "sellador": [
+                                        "sellador"
+                                ],
+                                "silicona": [
+                                        "silicona"
+                                ],
+                                "spray": [
+                                        "spray"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Archivador": {
+                "Marca": {
+                        "possible_values": {
+                                "acco": [
+                                        "acco"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "auca": [
+                                        "auca"
+                                ],
+                                "avery": [
+                                        "avery"
+                                ],
+                                "big boss": [
+                                        "big boss"
+                                ],
+                                "buho": [
+                                        "buho"
+                                ],
+                                "colón": [
+                                        "colón"
+                                ],
+                                "ctm": [
+                                        "ctm"
+                                ],
+                                "d williams": [
+                                        "d williams"
+                                ],
+                                "d.williams": [
+                                        "d.williams"
+                                ],
+                                "dfabri": [
+                                        "dfabri"
+                                ],
+                                "dimerc": [
+                                        "dimerc"
+                                ],
+                                "d'williams": [
+                                        "d'williams"
+                                ],
+                                "fineoffice": [
+                                        "fineoffice"
+                                ],
+                                "foska": [
+                                        "foska"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "legacy": [
+                                        "legacy"
+                                ],
+                                "leitz": [
+                                        "leitz"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "orgarex": [
+                                        "orgarex"
+                                ],
+                                "prisa": [
+                                        "prisa"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ],
+                                "wilson jones": [
+                                        "wilson jones"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tamaño": {
+                        "possible_values": {
+                                "a4": [
+                                        "a4"
+                                ],
+                                "carta": [
+                                        "carta"
+                                ],
+                                "escolar": [
+                                        "escolar"
+                                ],
+                                "letra": [
+                                        "letra"
+                                ],
+                                "oficio": [
+                                        "oficio"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Aros": {
+                        "possible_values": {
+                                "0 aros": [
+                                        "0 aros"
+                                ],
+                                "1 aro": [
+                                        "1 aro"
+                                ],
+                                "2 aros": [
+                                        "2 aros"
+                                ],
+                                "3 aros": [
+                                        "3 aros"
+                                ],
+                                "4 aros": [
+                                        "4 aros"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Color": {
+                        "possible_values": {
+                                "amarillo": [
+                                        "amarillo"
+                                ],
+                                "azul": [
+                                        "azul"
+                                ],
+                                "beige": [
+                                        "beige"
+                                ],
+                                "blanco": [
+                                        "blanco"
+                                ],
+                                "burdeo": [
+                                        "burdeo"
+                                ],
+                                "celeste": [
+                                        "celeste"
+                                ],
+                                "gris": [
+                                        "gris"
+                                ],
+                                "negro": [
+                                        "negro"
+                                ],
+                                "rojo": [
+                                        "rojo"
+                                ],
+                                "transparente": [
+                                        "transparente"
+                                ],
+                                "verde": [
+                                        "verde"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "aros": [
+                                        "aros"
+                                ],
+                                "carpeta": [
+                                        "carpeta"
+                                ],
+                                "doble rejilla": [
+                                        "doble rejilla"
+                                ],
+                                "nicho": [
+                                        "nicho"
+                                ],
+                                "palanca": [
+                                        "palanca"
+                                ],
+                                "simple rejilla": [
+                                        "simple rejilla"
+                                ],
+                                "top": [
+                                        "top"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Pulgadas": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Ancho": {
+                        "possible_values": {
+                                "ancho": [
+                                        "ancho"
+                                ],
+                                "angosto": [
+                                        "angosto"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Carpeta": {
+                "Marca": {
+                        "possible_values": {
+                                "adix": [
+                                        "adix"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "alo": [
+                                        "alo"
+                                ],
+                                "auca": [
+                                        "auca"
+                                ],
+                                "auraxd": [
+                                        "auraxd"
+                                ],
+                                "buho": [
+                                        "buho"
+                                ],
+                                "big boss": [
+                                        "big boss"
+                                ],
+                                "carleiro": [
+                                        "carleiro"
+                                ],
+                                "colón": [
+                                        "colón"
+                                ],
+                                "cordillera": [
+                                        "cordillera"
+                                ],
+                                "ctm": [
+                                        "ctm"
+                                ],
+                                "data zone": [
+                                        "data zone"
+                                ],
+                                "databank": [
+                                        "databank"
+                                ],
+                                "dfabri": [
+                                        "dfabri"
+                                ],
+                                "dimerc": [
+                                        "dimerc"
+                                ],
+                                "dissan": [
+                                        "dissan"
+                                ],
+                                "dommo": [
+                                        "dommo"
+                                ],
+                                "durable": [
+                                        "durable"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "fineoffice": [
+                                        "fineoffice"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "geopen": [
+                                        "geopen"
+                                ],
+                                "halley": [
+                                        "halley"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "ja": [
+                                        "ja"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "js": [
+                                        "js"
+                                ],
+                                "kinary": [
+                                        "kinary"
+                                ],
+                                "kourus": [
+                                        "kourus"
+                                ],
+                                "master": [
+                                        "master"
+                                ],
+                                "neuilly": [
+                                        "neuilly"
+                                ],
+                                "nuovo": [
+                                        "nuovo"
+                                ],
+                                "office nuovo": [
+                                        "office nuovo"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "orgarex": [
+                                        "orgarex"
+                                ],
+                                "pafer": [
+                                        "pafer"
+                                ],
+                                "papyrus": [
+                                        "papyrus"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "rem": [
+                                        "rem"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "schulz": [
+                                        "schulz"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ],
+                                "wilson jones": [
+                                        "wilson jones"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Color": {
+                        "possible_values": {
+                                "amarillo": [
+                                        "amarillo"
+                                ],
+                                "azul": [
+                                        "azul"
+                                ],
+                                "burdeo": [
+                                        "burdeo"
+                                ],
+                                "beige": [
+                                        "beige"
+                                ],
+                                "blanco": [
+                                        "blanco"
+                                ],
+                                "cafe": [
+                                        "cafe"
+                                ],
+                                "café": [
+                                        "café"
+                                ],
+                                "caoba": [
+                                        "caoba"
+                                ],
+                                "cartulina": [
+                                        "cartulina"
+                                ],
+                                "celeste": [
+                                        "celeste"
+                                ],
+                                "cuero caoba": [
+                                        "cuero caoba"
+                                ],
+                                "fucsia": [
+                                        "fucsia"
+                                ],
+                                "gris": [
+                                        "gris"
+                                ],
+                                "humo": [
+                                        "humo"
+                                ],
+                                "craft": [
+                                        "craft"
+                                ],
+                                "lila": [
+                                        "lila"
+                                ],
+                                "marrón": [
+                                        "marrón"
+                                ],
+                                "mimetismo": [
+                                        "mimetismo"
+                                ],
+                                "morado": [
+                                        "morado"
+                                ],
+                                "multicolor": [
+                                        "multicolor"
+                                ],
+                                "naranjo": [
+                                        "naranjo"
+                                ],
+                                "negro": [
+                                        "negro"
+                                ],
+                                "pigmentada": [
+                                        "pigmentada"
+                                ],
+                                "plata": [
+                                        "plata"
+                                ],
+                                "púrpura": [
+                                        "púrpura"
+                                ],
+                                "rojo": [
+                                        "rojo"
+                                ],
+                                "rosado": [
+                                        "rosado"
+                                ],
+                                "transparente": [
+                                        "transparente"
+                                ],
+                                "verde": [
+                                        "verde"
+                                ],
+                                "violeta": [
+                                        "violeta"
+                                ]       
+                        },
+                        "type": "nominal"
+                },
+                "Tamaño": {
+                        "possible_values": {
+                                "a4": [
+                                        "a4"
+                                ],
+                                "carta": [
+                                        "carta"
+                                ],
+                                "chequera": [
+                                        "chequera"
+                                ],
+                                "oficio": [
+                                        "oficio"
+                                ],
+                                "standart": [
+                                        "standart"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "acoclip": [
+                                        "acoclip"
+                                ],
+                                "acordeón": [
+                                        "acordeón"
+                                ],
+                                "anillos": [
+                                        "anillos"
+                                ],
+                                "anotador": [
+                                        "anotador"
+                                ],
+                                "caja": [
+                                        "caja"
+                                ],
+                                "cierre con apretador": [
+                                        "cierre con apretador"
+                                ],
+                                "cierre elástico": [
+                                        "cierre elástico"
+                                ],
+                                "colgante": [
+                                        "colgante"
+                                ],
+                                "con apretador": [
+                                        "con apretador"
+                                ],
+                                "con botón": [
+                                        "con botón"
+                                ],
+                                "con fundas": [
+                                        "con fundas"
+                                ],
+                                "corriente": [
+                                        "corriente"
+                                ],
+                                "cuero": [
+                                        "cuero"
+                                ],
+                                "eocológica": [
+                                        "ecológica"
+                                ],
+                                "ejecutiva": [
+                                        "ejecutiva"
+                                ],
+                                "gusano": [
+                                        "gusano"
+                                ],
+                                "maletín": [
+                                        "maletín"
+                                ],
+                                "plástica con block de notas": [
+                                        "plástica con block de notas"
+                                ],
+                                "portablock": [
+                                        "marrón"
+                                ],
+                                "portadocumentos": [
+                                        "mimetismo"
+                                ],
+                                "protocolo": [
+                                        "morado"
+                                ],
+                                "rotaclip": [
+                                        "rotaclip"
+                                ],
+                                "schnell": [
+                                        "schnell"
+                                ],
+                                "seminario": [
+                                        "seminario"
+                                ],
+                                "solapa": [
+                                        "solapa"
+                                ]       
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Num_fundas": {
+                        "dim": "funda",
+                        "type": "ratio"    
+                },
+                "Material": {
+                        "possible_values": {
+                                "arpillera": [
+                                        "arpillera"
+                                ],
+                                "cartón plastificado": [
+                                        "cartón plastificado"
+                                ],
+                                "cartulina": [
+                                        "cartulina"
+                                ],
+                                "couche emplacado": [
+                                        "couche emplacado"
+                                ],
+                                "cuero": [
+                                        "cuero"
+                                ],
+                                "eco cuero": [
+                                        "eco cuero"
+                                ],
+                                "fundas": [
+                                        "fundas"
+                                ],
+                                "kraft": [
+                                        "kraft"
+                                ],
+                                "oxford": [
+                                        "oxford"
+                                ],
+                                "plástico": [
+                                        "plástico"
+                                ],
+                                "plastico": [
+                                        "plastico"
+                                ],
+                                "simil cuero": [
+                                        "simil cuero"
+                                ],
+                                "vinilo": [
+                                        "vinilo"
+                                ],
+                                "craft": [
+                                        "craft"
+                                ]       
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Clips": {
+               "Marca": {
+                        "possible_values": {
+                                "acco": [
+                                        "acco"
+                                ],
+                                "adis": [
+                                        "adis"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "arsi": [
+                                        "arsi"
+                                ],
+                                "baioffice": [
+                                        "baioffice"
+                                ],
+                                "cordillera": [
+                                        "cordillera"
+                                ],
+                                "dimerc": [
+                                        "dimerc"
+                                ],
+                                "dom": [
+                                        "dom"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "foska": [
+                                        "foska"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "merletto": [
+                                        "merletto"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "pedin": [
+                                        "pedin"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "selloffice": [
+                                        "selloffice"
+                                ],
+                                "cellofilm": [
+                                        "cellofilm"
+                                ],
+                                "talenti": [
+                                        "talenti"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ],
+                                "celloffice": [
+                                        "celloffice"
+                                ]
+                        },
+                        "type": "nominal"
+                },        
+                "Material": {
+                        "possible_values": {
+                                "metal": [
+                                        "metal"
+                                ],
+                                "plástico": [
+                                        "plástico"
+                                ],
+                                "plastico": [
+                                        "plastico"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "apretador": [
+                                        "apretador"
+                                ],
+                                "dispensador magic clip": [
+                                        "dispensador magic clip"
+                                ],
+                                "magic clip": [
+                                        "magic clip"
+                                ],
+                                "redondo": [
+                                        "redondo"
+                                ],
+                                "triangular": [
+                                        "triangular"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tamaño": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Tipo_unidad": {
+                        "possible_values": {
+                                "kilo": [
+                                        "kilo"
+                                ],
+                                "clips": [
+                                        "clips"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Corchetera": {
+               "Marca": {
+                        "possible_values": {
+                                "acco": [
+                                        "acco"
+                                ],
+                                "adis": [
+                                        "adis"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "auca": [
+                                        "auca"
+                                ],
+                                "adix": [
+                                        "adix"
+                                ],
+                                "bostitch": [
+                                        "bostitch"
+                                ],
+                                "dimerc": [
+                                        "dimerc"
+                                ],
+                                "colón": [
+                                        "colón"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "genmes": [
+                                        "genmes"
+                                ],
+                                "ideal": [
+                                        "ideal"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "kangaro": [
+                                        "kangaro"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "maped": [
+                                        "maped"
+                                ],
+                                "merletto": [
+                                        "merletto"
+                                ],
+                                "munix": [
+                                        "munix"
+                                ],
+                                "novus": [
+                                        "novus"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "rapid": [
+                                        "rapid"
+                                ],
+                                "rexel": [
+                                        "rexel"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "sdi": [
+                                        "sdi"
+                                ],
+                                "selloffice": [
+                                        "selloffice"
+                                ],
+                                "skrebba": [
+                                        "skrebba"
+                                ],
+                                "stanley": [
+                                        "stanley"
+                                ],
+                                "stapler": [
+                                        "stapler"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "swingline": [
+                                        "swingline"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ],
+                                "x-acto": [
+                                        "x-acto"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Material": {
+                        "possible_values": {
+                                "metal": [
+                                        "metal"
+                                ],
+                                "plástico": [
+                                        "plástico"
+                                ],
+                                "plastico": [
+                                        "plastico"
+                                ]
+                        },
+                        "type": "nominal"
+                },      
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Capacidad": {
+                        "dim": "hoja",
+                        "type": "ratio"
+                },
+                "Electrica": {
+                        "possible_values": {
+                                "si": [
+                                        "si"
+                                ],
+                                "no": [
+                                        "no"
+                                ]
+                       },
+                        "type": "nominal"
+                }
+        },
+        "Corchetes": {
+               "Marca": {
+                        "possible_values": {
+                                "adis": [
+                                        "adis"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "bostitch": [
+                                        "bostitch"
+                                ],
+                                "buho": [
+                                        "buho"
+                                ],
+                                "foska": [
+                                        "foska"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "kangaro": [
+                                        "kangaro"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "max": [
+                                        "max"
+                                ],
+                                "novus": [
+                                        "novus"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "rapid": [
+                                        "rapid"
+                                ],
+                                "rexel": [
+                                        "rexel"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "sdi": [
+                                        "sdi"
+                                ],
+                                "selloffice": [
+                                        "selloffice"
+                                ],
+                                "skrebba": [
+                                        "skrebba"
+                                ],
+                                "stanley": [
+                                        "stanley"
+                                ],
+                                "stapler": [
+                                        "stapler"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "swingline": [
+                                        "swingline"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ]
+                        },
+                        "type": "nominal"
+                },  
+                "Tamaño": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Para corchetera electrica": {
+                        "possible_values": {
+                                "si": [
+                                        "si"
+                                ],
+                                "no": [
+                                        "no"
+                                ]
+                         },
+                        "type": "nominal"
+                }
+        },
+        "Corrector": {
+               "Marca": {
+                        "possible_values": {
+                                "adix": [
+                                        "adix"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "beifa": [
+                                        "beifa"
+                                ],
+                                "bic": [
+                                        "bic"
+                                ],
+                                "big boss": [
+                                        "big boss"
+                                ],
+                                "faber castell": [
+                                        "faber castell"
+                                ],
+                                "fineoffice": [
+                                        "fineoffice"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "henkel": [
+                                        "henkel"
+                                ],
+                                "infeso": [
+                                        "infeso"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "liquid paper": [
+                                        "liquid paper"
+                                ],
+                                "merletto": [
+                                        "merletto"
+                                ],
+                                "milan": [
+                                        "milan"
+                                ],
+                                "mon ami": [
+                                        "mon ami"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "paper mate": [
+                                        "paper mate"
+                                ],
+                                "pelikan": [
+                                        "pelikan"
+                                ],
+                                "pentel": [
+                                        "pentel"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "sdi": [
+                                        "sdi"
+                                ],
+                                "tratto": [
+                                        "tratto"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Volumen_ML": {
+                        "dim": "volumen",
+                        "type": "ratio"
+                },
+                "Largo_M_solo_cinta": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "cinta": [
+                                        "cinta"
+                                ],
+                                "frasco": [
+                                        "frasco"
+                                ],
+                                "lapiz": [
+                                        "lapiz"
+                                ],
+                                "lápiz": [
+                                        "lápiz"
+                                ]
+                       },
+                        "type": "nominal"
+                }
+        },
+        "Cuaderno": {
+               "Marca": {
+                        "possible_values": {
+                                "aron": [
+                                        "aron"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "auca": [
+                                        "auca"
+                                ],
+                                "buho": [
+                                        "buho"
+                                ],
+                                "colón": [
+                                        "colón"
+                                ],
+                                "colon": [
+                                        "colon"
+                                ],
+                                "ctm": [
+                                        "ctm"
+                                ],
+                                "fina imagen": [
+                                        "fina imagen"
+                                ],
+                                "foroni": [
+                                        "foroni"
+                                ],
+                                "georgi": [
+                                        "georgi"
+                                ],
+                                "grafic": [
+                                        "grafic"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "orgarex": [
+                                        "orgarex"
+                                ],
+                                "paredones": [
+                                        "paredones"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "recicla 100": [
+                                        "recicla 100"
+                                ],
+                                "rem": [
+                                        "rem"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "ross": [
+                                        "ross"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "1/2 carta": [
+                                        "1/2 carta"
+                                ],
+                                "1/2 oficio": [
+                                        "1/2 oficio"
+                                ],
+                                "a4": [
+                                        "a4"
+                                ],
+                                "carta": [
+                                        "carta"
+                                ],
+                                "college": [
+                                        "college"
+                                ],
+                                "doble oficio": [
+                                        "doble oficio"
+                                ],
+                                "oficio": [
+                                        "oficio"
+                                ],
+                                "pocket": [
+                                        "pocket"
+                                ],
+                                "universitario": [
+                                        "universitario"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Hojas": {
+                        "dim": "hoja",
+                        "type": "ratio"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Tipo_linea": {
+                        "possible_values": {
+                                "caligrafia": [
+                                        "caligrafia"
+                                ],
+                                "caligrafía": [
+                                        "caligrafía"
+                                ],
+                                "ciencia": [
+                                        "ciencia"
+                                ],
+                                "cuadriculado": [
+                                        "cuadriculado"
+                                ],
+                                "lineal": [
+                                        "lineal"
+                                ],
+                                "liso": [
+                                        "liso"
+                                ],
+                                "música": [
+                                        "música"
+                                ],
+                                "musica": [
+                                        "musica"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Cuchillo_cartonero": {
+               "Marca": {
+                        "possible_values": {
+                                "artel": [
+                                        "artel"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "big boss": [
+                                        "big boss"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "fineoffice": [
+                                        "fineoffice"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "kamasa": [
+                                        "kamasa"
+                                ],
+                                "laurel": [
+                                        "laurel"
+                                ],
+                                "maped": [
+                                        "maped"
+                                ],
+                                "merletto": [
+                                        "merletto"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "olfa": [
+                                        "olfa"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "roian": [
+                                        "roian"
+                                ],
+                                "sdi": [
+                                        "sdi"
+                                ],
+                                "selloffice": [
+                                        "selloffice"
+                                ],
+                                "stanley": [
+                                        "stanley"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "talenti": [
+                                        "talenti"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tamaño": {
+                        "possible_values": {
+                                "chico": [
+                                        "chico"
+                                ],
+                                "grande": [
+                                        "grande"
+                                ],
+                                "muy grande": [
+                                        "muy grande"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Material": {
+                        "possible_values": {
+                                "metal": [
+                                        "metal"
+                                ],
+                                "plástico": [
+                                        "plástico"
+                                ],
+                                "plastico": [
+                                        "plastico"
+                                ]
+                        },
+                        "type": "nominal"
+                },  
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },    
+                "Pieza_metalica": {
+                        "possible_values": {
+                                "si": [
+                                        "si"
+                                ],
+                                "no aplica": [
+                                        "no aplica"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Destacador": {
+               "Marca": {
+                        "possible_values": {
+                                "adix": [
+                                        "adix"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "acrilex": [
+                                        "acrilex"
+                                ],
+                                "bic": [
+                                        "bic"
+                                ],
+                                "big boss": [
+                                        "big boss"
+                                ],
+                                "faber castell": [
+                                        "faber castell"
+                                ],
+                                "artline": [
+                                        "artline"
+                                ],
+                                "compactor": [
+                                        "compactor"
+                                ],
+                                "ctm": [
+                                        "ctm"
+                                ],
+                                "dom": [
+                                        "dom"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "infeso": [
+                                        "infeso"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "luxor": [
+                                        "luxor"
+                                ],
+                                "maped": [
+                                        "maped"
+                                ],
+                                "merletto": [
+                                        "merletto"
+                                ],
+                                "milan": [
+                                        "milan"
+                                ],
+                                "monami": [
+                                        "monami"
+                                ],
+                                "mon ami": [
+                                        "mon ami"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "pilot": [
+                                        "pilot"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "sabonis": [
+                                        "sabonis"
+                                ],
+                                "selloboss": [
+                                        "selloboss"
+                                ],
+                                "sello-hiliter": [
+                                        "sello-hiliter"
+                                ],
+                                "sharpie": [
+                                        "sharpie"
+                                ],
+                                "stabilo": [
+                                        "stabilo"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ],
+                                "tratto": [
+                                        "tratto"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Color": {
+                        "possible_values": {
+                                "amarillo": [
+                                        "amarillo"
+                                ],
+                                "azul": [
+                                        "azul"
+                                ],
+                                "burdeo": [
+                                        "burdeo"
+                                ],
+                                "beige": [
+                                        "beige"
+                                ],
+                                "blanco": [
+                                        "blanco"
+                                ],
+                                "multicolor": [
+                                        "multicolor"
+                                ],
+                                "varios colores": [
+                                        "varios colores"
+                                ],
+                                "caoba": [
+                                        "caoba"
+                                ],
+                                "turquesa": [
+                                        "turquesa"
+                                ],
+                                "celeste": [
+                                        "celeste"
+                                ],
+                                "cuero caoba": [
+                                        "cuero caoba"
+                                ],
+                                "fucsia": [
+                                        "fucsia"
+                                ],
+                                "gris": [
+                                        "gris"
+                                ],
+                                "humo": [
+                                        "humo"
+                                ],
+                                "craft": [
+                                        "craft"
+                                ],
+                                "lila": [
+                                        "lila"
+                                ],
+                                "morado": [
+                                        "morado"
+                                ],
+                                "multicolor": [
+                                        "multicolor"
+                                ],
+                                "naranjo": [
+                                        "naranjo"
+                                ],
+                                "púrpura": [
+                                        "púrpura"
+                                ],
+                                "rojo": [
+                                        "rojo"
+                                ],
+                                "rosado": [
+                                        "rosado"
+                                ],
+                                "verde": [
+                                        "verde"
+                                ],
+                                "violeta": [
+                                        "violeta"
+                                ]       
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Tamaño": {
+                        "possible_values": {
+                                "bolsillo": [
+                                       "bolsillo"
+                                ],
+                                "grande": [
+                                        "grande"
+                                ],
+                                "lapiz": [
+                                        "lapiz"
+                                ],
+                                "lápiz": [
+                                        "lápiz"
+                                ],
+                                "regular": [
+                                        "regular"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Sobre": {
+               "Marca": {
+                        "possible_values": {
+                                "adec": [
+                                        "adec"
+                                ],
+                                "adetec": [
+                                        "adetec"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "aminorte": [
+                                        "aminorte"
+                                ],
+                                "biblioinsumos": [
+                                        "biblioinsumos"
+                                ],
+                                "cmd": [
+                                        "cmd"
+                                ],
+                                "cordillera": [
+                                        "cordillera"
+                                ],
+                                "dimerc": [
+                                        "dimerc"
+                                ],
+                                "datacom": [
+                                        "datacom"
+                                ],
+                                "ecart": [
+                                        "ecart"
+                                ],
+                                "fineoffice": [
+                                        "fineoffice"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "isi": [
+                                        "isi"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "jordan": [
+                                        "jordan"
+                                ],
+                                "jordan-vigamil": [
+                                        "jordan-vigamil"
+                                ],
+                                "office nuovo": [
+                                        "office nuovo"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "schaub": [
+                                        "schaub"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "teknofas": [
+                                        "teknofas"
+                                ],
+                                "tomax": [
+                                        "tomax"
+                                ],
+                                "vigamil": [
+                                        "vigamil"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Ventana": {
+                        "possible_values": {
+                                "con ventana": [
+                                        "con ventana"
+                                ],
+                                "sin ventana": [
+                                        "sin ventana"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Material": {
+                        "possible_values": {
+                                "papel": [
+                                        "papel"
+                                ],
+                                "carton": [
+                                        "carton"
+                                ],
+                                "plastico": [
+                                        "plastico"
+                                ],
+                                "cartón": [
+                                        "cartón"
+                                ],
+                                "plástico": [
+                                        "plástico"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Gramaje": {
+                        "dim": "masa",
+                        "type": "ratio"
+                },
+                "Dim1": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Dim2": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "acolchado": [
+                                        "acolchado"
+                                ],
+                                "americano": [
+                                        "americano"
+                                ],
+                                "bolsillo": [
+                                        "bolsillo"
+                                ],
+                                "broche": [
+                                        "broche"
+                                ],
+                                "cd": [
+                                        "cd"
+                                ],
+                                "cierre hilo": [
+                                        "cierre hilo"
+                                ],
+                                "farmacia": [
+                                        "farmacia"
+                                ],
+                                "saco": [
+                                        "saco"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tamaño": {
+                        "possible_values": {
+                                "1/2 carta": [
+                                        "1/2 carta"
+                                ],
+                                "1/2 oficio": [
+                                        "1/2 oficio"
+                                ],
+                                "1/3 oficio": [
+                                        "1/3 oficio"
+                                ],
+                                "1/4 oficio": [
+                                        "1/4 oficio"
+                                ],
+                                "carta": [
+                                        "carta"
+                                ],
+                                "correo pequeño": [
+                                        "correo pequeño"
+                                ],
+                                "extra oficio": [
+                                        "extra oficio"
+                                ],
+                                "oficio": [
+                                        "oficio"
+                                ],
+                                "revista": [
+                                        "revista"
+                                ],
+                                "visita": [
+                                        "visita"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Libro_de_oficina": {
+                     "Marca": {
+                        "possible_values": {
+                                "aron": [
+                                        "aron"
+                                ],
+                                "auca": [
+                                        "auca"
+                                ],
+                                "buho": [
+                                        "buho"
+                                ],
+                                "continental": [
+                                        "continental"
+                                ],
+                                "dante": [
+                                        "dante"
+                                ],
+                                "educarem": [
+                                        "educarem"
+                                ],
+                                "generico": [
+                                        "generico"
+                                ],
+                                "halley": [
+                                        "halley"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "js": [
+                                        "js"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "nahuel": [
+                                        "nahuel"
+                                ],
+                                "nuovo": [
+                                        "nuovo"
+                                ],
+                                "office nuovo": [
+                                        "office nuovo"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "orgarex": [
+                                        "orgarex"
+                                ],
+                                "rem": [
+                                        "rem"
+                                ],
+                                "rem - max": [
+                                        "rem - max"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "sonal": [
+                                        "sonal"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "acta": [
+                                        "acta"
+                                ],
+                                "asistencia": [
+                                        "asistencia"
+                                ],
+                                "contabilidad": [
+                                        "contabilidad"
+                                ],
+                                "correspondencia": [
+                                        "correspondencia"
+                                ],
+                                "duplicado": [
+                                        "duplicado"
+                                ],
+                                "escolar": [
+                                        "escolar"
+                                ],
+                                "existencia": [
+                                        "existencia"
+                                ],
+                                "indice": [
+                                        "indice"
+                                ],
+                                "indice telefonico": [
+                                        "indice telefonico"
+                                ],
+                                "registro retiro documentos": [
+                                        "registro retiro documentos"
+                                ],
+                                "taquimetria": [
+                                        "taquimetria"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Hojas": {
+                        "dim": "hoja",
+                        "type": "ratio"
+                },
+                "Educación": {
+                        "possible_values": {
+                                "basica": [
+                                        "basica"
+                                ],
+                                "diferencial": [
+                                        "diferencial"
+                                ],
+                                "especial": [
+                                        "especial"
+                                ],
+                                "media": [
+                                        "media"
+                                ],
+                                "parvularia": [
+                                        "parvularia"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Lapiz": {
+               "Marca": {
+                        "possible_values": {
+                                "acrilex": [
+                                        "acrilex"
+                                ],
+                                "adetec": [
+                                        "adetec"
+                                ],
+                                "adix": [
+                                        "adix"
+                                ],
+                                "amos": [
+                                        "amos"
+                                ],
+                                "art and cratf": [
+                                        "art and craft"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "artof": [
+                                        "artof"
+                                ],
+                                "ascott": [
+                                        "ascott"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "beifa": [
+                                        "beifa"
+                                ],
+                                "bic": [
+                                        "bic"
+                                ],
+                                "bruynzeel": [
+                                        "bruynzeel"
+                                ],
+                                "carioca": [
+                                        "carioca"
+                                ],
+                                "claro": [
+                                        "claro"
+                                ],
+                                "compactor": [
+                                        "compactor"
+                                ],
+                                "crayola": [
+                                        "crayola"
+                                ],
+                                "creall": [
+                                        "creall"
+                                ],
+                                "cretacolor": [
+                                        "cretacolor"
+                                ],
+                                "cross": [
+                                        "cross"
+                                ],
+                                "ctm": [
+                                        "ctm"
+                                ],
+                                "faber castell": [
+                                        "faber castell"
+                                ],
+                                "fina imagen": [
+                                        "fina imagen"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "georgi": [
+                                        "georgi"
+                                ],
+                                "giotto": [
+                                        "giotto"
+                                ],
+                                "greencastle": [
+                                        "greencastle"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "heutink": [
+                                        "heutink"
+                                ],
+                                "infeso": [
+                                        "infeso"
+                                ],
+                                "inoxcrom": [
+                                        "inoxcrom"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "jovi": [
+                                        "jovi"
+                                ],
+                                "king arts": [
+                                        "king arts"
+                                ],
+                                "krearte": [
+                                        "krearte"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "luxor": [
+                                        "luxor"
+                                ],
+                                "lyra": [
+                                        "luxor"
+                                ],
+                                "maped": [
+                                        "maped"
+                                ],
+                                "merletto": [
+                                        "merletto"
+                                ],
+                                "milan": [
+                                        "milan"
+                                ],
+                                "monami": [
+                                        "monami"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "ofixpres": [
+                                        "ofixpres"
+                                ],
+                                "paper mate": [
+                                        "paper mate"
+                                ],
+                                "parker": [
+                                        "parker"
+                                ],
+                                "pax": [
+                                        "pax"
+                                ],
+                                "pelikan": [
+                                        "pelikan"
+                                ],
+                                "pentel": [
+                                        "pentel"
+                                ],
+                                "pilot": [
+                                        "pilot"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "primo": [
+                                        "primo"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "ross": [
+                                        "ross"
+                                ],
+                                "sabonis": [
+                                        "sabonis"
+                                ],
+                                "seigard": [
+                                        "seigard"
+                                ],
+                                "selloffice": [
+                                        "selloffice"
+                                ],
+                                "sellopencil": [
+                                        "sellopencil"
+                                ],
+                                "sharpie": [
+                                        "sharpie"
+                                ],
+                                "stabilo": [
+                                        "stabilo"
+                                ],
+                                "stockmar": [
+                                        "stockmar"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ],
+                                "toy color": [
+                                        "toy color"
+                                ],
+                                "tratto": [
+                                        "tratto"
+                                ],
+                                "uniball": [
+                                        "uniball"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "acuarelables": [
+                                        "acuarelables"
+                                ],
+                                "boligrafo": [
+                                        "boligrafo"
+                                ],
+                                "carbón": [
+                                        "carbón"
+                                ],
+                                "carbon": [
+                                        "carbon"
+                                ],
+                                "bolígrafo": [
+                                        "bolígrafo"
+                                ],
+                                "cera": [
+                                        "cera"
+                                ],
+                                "colores": [
+                                        "colores"
+                                ],
+                                "gel": [
+                                        "gel"
+                                ],
+                                "goma": [
+                                        "goma"
+                                ],
+                                "grafito": [
+                                        "grafito"
+                                ],
+                                "madera": [
+                                        "madera"
+                                ],
+                                "marcador delgado": [
+                                        "marcador delgado"
+                                ],
+                                "oleo": [
+                                        "oleo"
+                                ],
+                                "pasta": [
+                                        "pasta"
+                                ],
+                                "pluma": [
+                                        "pluma"
+                                ],
+                                "plumón": [
+                                        "plumón"
+                                ],
+                                "pastel": [
+                                        "pastel"
+                                ],
+                                "roller": [
+                                        "roller"
+                                ],
+                                "rotulador": [
+                                        "rotulador"
+                                ],
+                                "tiralineas": [
+                                        "tiralineas"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Colores_lapiz_por_pack": {
+                        "dim": "colores",
+                        "type": "ratio"
+                },
+                "Color": {
+                        "possible_values": {
+                                "azul": [
+                                        "azul"
+                                ],
+                                "bicolor": [
+                                        "bicolor"
+                                ],
+                                "blanco": [
+                                        "blanco"
+                                ],
+                                "celeste": [
+                                        "celeste"
+                                ],
+                                "cafe": [
+                                        "cafe"
+                                ],
+                                "dorado": [
+                                        "dorado"
+                                ],
+                                "grafito": [
+                                        "grafito"
+                                ],
+                                "morado": [
+                                        "morado"
+                                ],
+                                "multicolor": [
+                                        "multicolor"
+                                ],
+                                "naranjo": [
+                                        "naranjo"
+                                ],
+                                "negro": [
+                                        "negro"
+                                ],
+                                "plata": [
+                                        "plata"
+                                ],
+                                "plateado": [
+                                        "plateado"
+                                ],
+                                "rojo": [
+                                        "rojo"
+                                ],
+                                "rosado": [
+                                        "rosado"
+                                ],
+                                "tricolor": [
+                                        "tricolor"
+                                ],
+                                "verde": [
+                                        "verde"
+                                ],
+                                "violeta": [
+                                        "violeta"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Marcador": {
+               "Marca": {
+                        "possible_values": {
+                                "acrilex": [
+                                        "acrilex"
+                                ],
+                                "artline": [
+                                        "artline"
+                                ],
+                                "adix": [
+                                        "adix"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "beifa": [
+                                        "beifa"
+                                ],
+                                "artel": [
+                                        "artel"
+                                ],
+                                "bic": [
+                                        "bic"
+                                ],
+                                "big boss": [
+                                        "big boss"
+                                ],
+                                "carioca": [
+                                        "carioca"
+                                ],
+                                "compactor": [
+                                        "compactor"
+                                ],
+                                "crayola": [
+                                        "crayola"
+                                ],
+                                "dimerc": [
+                                        "dimerc"
+                                ],
+                                "do a dot art": [
+                                        "do a dot art"
+                                ],
+                                "faber castell": [
+                                        "faber castell"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "foska": [
+                                        "foska"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "giotto": [
+                                        "giotto"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "infeso": [
+                                        "infeso"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "king arts": [
+                                        "king arts"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "luxor": [
+                                        "luxor"
+                                ],
+                                "maped": [
+                                        "maped"
+                                ],
+                                "milan": [
+                                        "milan"
+                                ],
+                                "mon ami": [
+                                        "mon ami"
+                                ],
+                                "offix": [
+                                        "offix"
+                                ],
+                                "ofijet": [
+                                        "ofijet"
+                                ],
+                                "ofimak": [
+                                        "ofimak"
+                                ],
+                                "pebeo": [
+                                        "pebeo"
+                                ],
+                                "pelikan": [
+                                        "pelikan"
+                                ],
+                                "pentel": [
+                                        "pentel"
+                                ],
+                                "pilot": [
+                                        "pilot"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "sabonis": [
+                                        "sabonis"
+                                ],
+                                "sargent art": [
+                                        "sargent art"
+                                ],
+                                "sdi": [
+                                        "sdi"
+                                ],
+                                "selloffice": [
+                                        "selloffice"
+                                ],
+                                "sellomarker": [
+                                        "sellomarker"
+                                ],
+                                "sellopencil": [
+                                        "sellopencil"
+                                ],
+                                "sharpie": [
+                                        "sharpie"
+                                ],
+                                "sigmaflo": [
+                                        "sigmaflo"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ],
+                                "toy color": [
+                                        "toy color"
+                                ],
+                                "tratto": [
+                                        "tratto"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Punta": {
+                        "possible_values": {
+                                "punta biselada": [
+                                        "punta biselada"
+                                ],
+                                "punta conica": [
+                                        "punta conica"
+                                ],
+                                "punta cónica": [
+                                        "punta cónica"
+                                ],
+                                "punta delgada": [
+                                        "punta delgada"
+                                ],
+                                "punta fina": [
+                                        "punta fina"
+                                ],
+                                "punta gruesa": [
+                                        "punta gruesa"
+                                ],
+                                "punta media": [
+                                        "punta media"
+                                ],
+                                "punta pincel": [
+                                        "punta pincel"
+                                ],
+                                "punta recta": [
+                                        "punta recta"
+                                ],
+                                "punta redonda": [
+                                        "punta redonda"
+                                ],
+                                "punta ultra fina": [
+                                        "punta ultra fina"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Color": {
+                        "possible_values": {
+                                "azul": [
+                                        "azul"
+                                ],
+                                "amarillo": [
+                                        "amarillo"
+                                ],
+                                "blanco": [
+                                        "blanco"
+                                ],
+                                "bronce": [
+                                        "bronce"
+                                ],
+                                "cafe": [
+                                        "cafe"
+                                ],
+                                "dorado": [
+                                        "dorado"
+                                ],
+                                "grafito": [
+                                        "grafito"
+                                ],
+                                "morado": [
+                                        "morado"
+                                ],
+                                "multicolor": [
+                                        "multicolor"
+                                ],
+                                "naranjo": [
+                                        "naranjo"
+                                ],
+                                "negro": [
+                                        "negro"
+                                ],
+                                "plata": [
+                                        "plata"
+                                ],
+                                "plateado": [
+                                        "plateado"
+                                ],
+                                "rojo": [
+                                        "rojo"
+                                ],
+                                "rosado": [
+                                        "rosado"
+                                ],
+                                "varios colores": [
+                                        "varios colores"
+                                ],
+                                "verde": [
+                                        "verde"
+                                ],
+                                "violeta": [
+                                        "violeta"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Num_colores": {
+                        "dim": "colores",
+                        "type": "ratio"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "acuarelable": [
+                                        "acuarelable"
+                                ],
+                                "gel": [
+                                        "gel"
+                                ],
+                                "oleo": [
+                                        "oleo"
+                                ],
+                                "pizarra": [
+                                        "pizarra"
+                                ],
+                                "super lavable": [
+                                        "super lavable"
+                                ],
+                                "tinta": [
+                                        "tinta"
+                                ]
+                        },
+                        "type": "nominal"
+                }
+        },
+        "Tijeras": {
+               "Marca": {
+                        "possible_values": {
+                                "adix": [
+                                        "adix"
+                                ],
+                                "alemania": [
+                                        "alemania"
+                                ],
+                                "arcoiris": [
+                                        "arcoiris"
+                                ],
+                                "art and craft": [
+                                        "art and craft"
+                                ],
+                                "atlantik": [
+                                        "atlantik"
+                                ],
+                                "barrilito": [
+                                        "barrilito"
+                                ],
+                                "big boss": [
+                                        "big boss"
+                                ],
+                                "creativ company": [
+                                        "creativ company"
+                                ],
+                                "dahle": [
+                                        "dahle"
+                                ],
+                                "ecr": [
+                                        "ecr"
+                                ],
+                                "faber castell": [
+                                        "faber castell"
+                                ],
+                                "fervet": [
+                                        "fervet"
+                                ],
+                                "fina imagen": [
+                                        "fina imagen"
+                                ],
+                                "fineoffice": [
+                                        "fineoffice"
+                                ],
+                                "fultons": [
+                                        "fultons"
+                                ],
+                                "hand": [
+                                        "hand"
+                                ],
+                                "isofit": [
+                                        "isofit"
+                                ],
+                                "jm import": [
+                                        "jm import"
+                                ],
+                                "krearte": [
+                                        "krearte"
+                                ],
+                                "lavoro": [
+                                        "lavoro"
+                                ],
+                                "maped": [
+                                        "maped"
+                                ],
+                                "merletto": [
+                                        "merletto"
+                                ],
+                                "milan": [
+                                        "milan"
+                                ],
+                                "mundial": [
+                                        "mundial"
+                                ],
+                                "pax": [
+                                        "pax"
+                                ],
+                                "pointer": [
+                                        "pointer"
+                                ],
+                                "proarte": [
+                                        "proarte"
+                                ],
+                                "rhein": [
+                                        "rhein"
+                                ],
+                                "roian": [
+                                        "roian"
+                                ],
+                                "scotch": [
+                                        "scotch"
+                                ],
+                                "sdi": [
+                                        "sdi"
+                                ],
+                                "seigard": [
+                                        "seigard"
+                                ],
+                                "selloffice": [
+                                        "selloffice"
+                                ],
+                                "ses": [
+                                        "ses"
+                                ],
+                                "studmark": [
+                                        "studmark"
+                                ],
+                                "talenti": [
+                                        "talenti"
+                                ],
+                                "torre": [
+                                        "torre"
+                                ]
+                        },
+                        "type": "nominal"
+                },
+                "Unidades": {
+                        "dim": "unidades",
+                        "type": "ratio"
+                },
+                "Tamaño_cm": {
+                        "dim": "largo",
+                        "type": "ratio"
+                },
+                "Tipo": {
+                        "possible_values": {
+                                "costura": [
+                                        "costura"
+                                ],
+                                "curva": [
+                                        "curva"
+                                ],
+                                "deshilachadora": [
+                                        "deshilachadora"
+                                ],
+                                "escolar": [
+                                        "escolar"
+                                ],
+                                "metalica": [
+                                        "metalica"
+                                ],
+                                "oficina": [
+                                        "oficina"
+                                ],
+                                "para zurdos": [
+                                        "para zurdos"
+                                ],
+                                "plegable": [
+                                        "plegable"
+                                ],
+                                "zig zag": [
+                                        "zig zag"
+                                ],
+                                "zurdos": [
+                                        "zurdos"
+                                ]        
+                        },
+                        "type": "nominal"
+                },
+                "material_mango": {
+                        "possible_values": {
+                                "goma": [
+                                        "goma"
+                                ],
+                                "metalico": [
+                                        "metalico"
+                                ],
+                                "plastico": [
+                                        "plastico"
+                                ]        
+                        },
+                        "type": "nominal"
+                },
+                "material": {
+                        "possible_values": {
+                                "metalica": [
+                                        "metalica"
+                                ],
+                                "plastica": [
+                                        "plastica"
+                                ]      
+                        },
+                        "type": "nominal"
+                },
+                "punta": {
+                        "possible_values": {
+                                "cuadrada": [
+                                        "cuadrada"
+                                ],
+                                "puntiaguda": [
+                                        "puntiaguda"
+                                ],
+                                "redonda": [
+                                        "redonda"
+                                ]         
+                        },
+                        "type": "nominal"
+                }
+        }
+}

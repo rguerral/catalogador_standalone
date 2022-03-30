@@ -1,0 +1,168 @@
+{
+       "unidades": {
+		"base_unit": "unidad",
+		"possible_units": {
+			"unidad": {
+				"to_base": 1,
+				"syn": [
+					"unidad", "unidades", "unid", "u", "un",
+					"unidade" 
+				]
+			}
+		}
+	},
+       "voltaje": {
+		"base_unit": "voltios",
+		"possible_units": {
+			"voltios": {
+				"to_base": 1,
+				"syn": [
+					"voltios", "volts", "volt", "v", "vlts",
+					"vlt" 
+				]
+			}
+		}
+	},
+       "largo": {
+		"base_unit": "centimetro",
+		"possible_units": {
+			"centimetro": {
+				"to_base": 1,
+				"syn": [
+					"cm", "centímetro", "cms", "centímetros", "centimetro",
+					"centimetros" 
+				]
+                        },
+			"milimetro": {
+				"to_base": 0.1,
+				"syn": [
+					"milimetro", "milímetro","mm", "milimetros", "milímetros"
+                                ]
+			},
+                        "pulgada": {
+				"to_base": 2.54,
+				"syn": [
+					"pulg", "'", "''", "`", "``", "\""
+				]
+			},
+                        "metro": {
+				"to_base": 100,
+				"syn": [
+					"mts", "m", "metros", "metro", "mt", "ms"
+				]
+			}
+		}
+	},
+       "masa": {
+		"base_unit": "gramo",
+		"possible_units": {
+			"gramo": {
+				"to_base": 1,
+				"syn": [
+					"gramo", "gr", "g"
+				]
+			},
+			"kilogramo": {
+				"to_base": 1000,
+				"syn": [
+					"kilo", "kg"
+				]
+			}
+		}
+	},
+       "volumen": {
+		"base_unit": "litro",
+		"possible_units": {
+			"litro": {
+				"to_base": 1,
+				"syn": [
+					"lt", "l"
+				]
+			},
+			"mililitro": {
+				"to_base": 0.001,
+				"syn": [
+					"ml", "cc"
+				]
+
+			}
+		}
+	},
+       "tubo": {
+		"base_unit": "tubo",
+		"possible_units": {
+			"tubo": {
+				"to_base": 1,
+				"syn": [
+					"tubo", "tubos"
+				]
+			}
+		}
+	},
+        "funda": {
+		"base_unit": "funda",
+		"possible_units": {
+			"funda": {
+				"to_base": 1,
+				"syn": [
+					"funda", "fundas"
+				]
+			}
+		}
+	},
+        "hoja": {
+		"base_unit": "hoja",
+		"possible_units": {
+			"hoja": {
+				"to_base": 1,
+				"syn": [
+					"hoja", "hojas"
+				]
+			}
+		}
+	},
+        "divisiones": {
+		"base_unit": "divisiones",
+		"possible_units": {
+			"divisiones": {
+				"to_base": 1,
+				"syn": [
+					"división", "divisiones", "division"
+				]
+			}
+		}
+	},
+        "colores": {
+		"base_unit": "colores",
+		"possible_units": {
+			"colores": {
+				"to_base": 1,
+				"syn": [
+					"color", "colores"
+				]
+			}
+		}
+	},
+        "resmas": {
+		"base_unit": "resma",
+		"possible_units": {
+			"resma": {
+				"to_base": 1,
+				"syn": [
+					"resma", "resmas"
+				]
+			}
+		}
+	},
+        "packs": {
+		"base_unit": "pack",
+		"possible_units": {
+			"pack": {
+				"to_base": 1,
+				"syn": [
+					"pack", "packs"
+				]
+			}
+		}
+	}
+}

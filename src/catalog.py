@@ -80,13 +80,14 @@ class Catalog:
 		if exists(join(INPUT_PATH, "products.csv")):
 			products_df = pd.read_csv(join(INPUT_PATH, "products.csv"), encoding = "utf-8")
 		elif exists(join(INPUT_PATH, "products.xlsx")):
-			products_df = pd.read_excel(join(INPUT_PATH, "products.xlsx"))
+			products_df = pd.read_excel(join(INPUT_PATH, "products.xlsx"), engine='openpyxl')
 		else:
 			raise FileNotFoundError("products.csv/products.xlsx: no se encuentra el archivo  en la carpeta input")
 
 		try:
 			products_df["id"]
 			products_df["text"] = [None if x=="nan" else x for x in products_df["text"].astype(str)]
+			products_df = products_df[products_df["text"].notna()].copy()
 			if products_df["text"].isna().sum() > 0:
 				raise ValueError
 			products_df["category"] = [None if x=="nan" else x for x in products_df["category"].astype(str)]
@@ -476,7 +477,10 @@ class Catalog:
 						else:
 							float1 = str(float(magnitude.split("/")[0]))
 							float2 = str(float(magnitude.split("/")[1]))
-							float_found_magnitudes.append(float(float1) / float(float2))
+							if float(float2)==0:
+								float_found_magnitudes.append(float(float1))
+							else:
+								float_found_magnitudes.append(float(float1) / float(float2))
 					# Guardar
 					for magnitude in float_found_magnitudes:
 						magnitude_base = magnitude * mult

@@ -9,7 +9,7 @@ with open(join(PATH_src,'stopwords.json')) as f:
 
 # Clasificacion
 threshold_class = 1
-knn_neigh = 5
+knn_neigh = 3
 tfidf_max_features = 10000
 tfidf_min_df = 5
 tfidf_ngram = 2
